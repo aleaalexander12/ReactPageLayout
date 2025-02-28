@@ -5,9 +5,8 @@ function EmployeePage () {
     
 
     return (
-        <div> 
+        <div style={{border: "2px solid red"}}> 
     
-          <EmployeePage/>
 
         </div>
 

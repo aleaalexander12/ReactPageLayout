@@ -1,16 +1,13 @@
+function EmployeeListItem({ name, position, image }) {
+    return (
+        <div style={{border: "3px solid red", padding: "5px", marginBottom: "5px", display:"flex"}}>
+          <img src={image} style={{borderRadius: "60%", width: "100px", marginRight: "10px"}}/>
+          <div>
+            <h2>{name}</h2>
+            <p >{position}</p>
+          </div>
+        </div>
+      );
+    };
 
-
-function EmployeeListItem(props){
-    return(
-        <>
-            {/* <img src="https://via.placeholder.com/150" alt="profile picture"></img> */}
-            <img src="https://via.placeholder.com/150" alt="profile picture">{props.img}</img>
-            <h3 >{props.name}</h3>
-            <p>{props.title}</p>
-    
-        </>
-    )
-    }
-    
-    
-    export default EmployeeListItem
+export default EmployeeListItem
