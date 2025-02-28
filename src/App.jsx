@@ -1,13 +1,14 @@
-import '.App.css'
-import Header from "./components/Header.jsx"
+import './App.css'
+import Homepage from './components/Homepage.jsx'
 
 
 function App() {
 
   return (
     <>
-     <Header text="Employee Directory"
-    /></>
+      <Homepage/>
+    
+    </>
   )
 }
 

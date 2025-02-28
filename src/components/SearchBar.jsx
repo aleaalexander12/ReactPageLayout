@@ -1,16 +1,9 @@
+function SearchBar() {
+  return (
+    <div>
+      <SearchBar />
+    </div>
+  )
+}
 
-
-function SearchBar () {
-    
-
-    return (
-
-
-
-    )
-
-
-
-} 
-
-export default SearchBar
+export default SearchBar;
